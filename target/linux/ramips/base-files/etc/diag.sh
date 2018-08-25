@@ -72,6 +72,7 @@ get_status_led() {
 		status_led="$boardname:red:power"
 		;;
 	ai-br100|\
+	wr-525w|\
 	ht-tm02)
 		status_led="$boardname:blue:wlan"
 		;;

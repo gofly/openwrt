@@ -194,6 +194,7 @@ platform_check_image() {
 	wndr3700v5|\
 	wr512-3gn-4M|\
 	wr512-3gn-8M|\
+	wr-525w|\
 	wr6202|\
 	wrh-300cr|\
 	wrtnode|\

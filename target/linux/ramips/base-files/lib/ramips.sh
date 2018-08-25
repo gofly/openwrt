@@ -625,6 +625,9 @@ ramips_board_detect() {
 	*"WR512-3GN (8M)")
 		name="wr512-3gn-8M"
 		;;
+	*"WR-525W")
+		name="wr-525w"
+		;;
 	*"WR6202")
 		name="wr6202"
 		;;

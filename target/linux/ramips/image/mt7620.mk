@@ -541,6 +541,14 @@ define Device/wn3000rpv3
 endef
 TARGET_DEVICES += wn3000rpv3
 
+define Device/wr-525w
+  DTS := WR-525W
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := DualWan WR-525W
+  DEVICE_PACKAGES:= kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += wr-525w
+
 define Device/wrh-300cr
   DTS := WRH-300CR
   IMAGE_SIZE := $(ralink_default_fw_size_16M)

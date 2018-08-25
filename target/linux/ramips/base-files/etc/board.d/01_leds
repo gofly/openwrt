@@ -48,6 +48,7 @@ a5-v11|\
 cs-qr10)
 	ucidef_set_led_default "power" "POWER" "$boardname:red:power" "1"
 	;;
+wr-525w|\
 ai-br100)
 	ucidef_set_led_netdev "wan" "wan" "$boardname:blue:wan" "eth0.2"
 	set_wifi_led "$boardname:blue:wlan"
